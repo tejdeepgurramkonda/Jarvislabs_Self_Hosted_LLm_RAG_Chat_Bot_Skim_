@@ -1,0 +1,17 @@
+{
+  "label": "awq",
+  "runs": 20,
+  "ttft_ms_mean": 68.6,
+  "ttft_ms_p90": 110.3,
+  "itl_ms_mean": 19.03,
+  "tokens_per_sec_mean": 52.0,
+  "e2e_s_mean": 3.25,
+  "completion_tokens_mean": 169.8,
+  "engine": "vllm",
+  "quantization": "awq",
+  "dtype": "float16",
+  "load_time_s": 71.95,
+  "vram_allocated_gb": 0.0,
+  "vram_reserved_gb": 0.0,
+  "weights_gb": 5.29
+}

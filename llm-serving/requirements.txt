@@ -1,0 +1,24 @@
+# torch is ALREADY installed on your JarvisLabs instance (matches CUDA 13.0).
+# Do NOT reinstall it. Install the rest with:  pip install -r requirements.txt
+
+# --- serving + model (transformers engine) ---
+transformers>=5.0
+accelerate
+safetensors
+sentencepiece
+bitsandbytes            # int8 / nf4 experiments
+fastapi>=0.115
+uvicorn[standard]
+pydantic>=2
+pydantic-settings>=2
+
+# --- benchmarking + tables/plots ---
+tabulate
+pandas
+matplotlib
+httpx                   # async load test client
+
+# --- vLLM engine (awq/gptq experiments + fast serving) ---
+# Best installed in a SEPARATE venv (it pins its own torch). See README.
+# vllm>=0.11
+# openai                # optional: OpenAI SDK client for the vLLM server

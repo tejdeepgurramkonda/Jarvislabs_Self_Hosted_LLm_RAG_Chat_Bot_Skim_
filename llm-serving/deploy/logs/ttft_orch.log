@@ -1,0 +1,15 @@
+>>> [bf16] starting server at 18:28:51
+>>> [bf16] healthy; measuring TTFT/ITL at 18:29:56
+>>> [bf16] done at 18:32:25
+>>> [fp16] starting server at 18:32:25
+>>> [fp16] healthy; measuring TTFT/ITL at 18:33:30
+>>> [fp16] done at 18:35:59
+>>> [fp8] starting server at 18:35:59
+>>> [fp8] healthy; measuring TTFT/ITL at 18:37:14
+>>> [fp8] done at 18:38:46
+>>> [gptq] starting server at 18:38:46
+>>> [gptq] healthy; measuring TTFT/ITL at 18:39:56
+>>> [gptq] done at 18:40:48
+>>> [awq] starting server at 18:40:48
+>>> [awq] healthy; measuring TTFT/ITL at 18:41:59
+>>> [awq] done at 18:42:51

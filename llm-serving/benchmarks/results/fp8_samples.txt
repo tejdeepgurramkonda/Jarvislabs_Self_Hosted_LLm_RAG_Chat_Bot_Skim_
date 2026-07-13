@@ -1,0 +1,31 @@
+# RAG quality samples — variant: fp8
+
+==============================================================================
+[grounded_single_fact]
+Context:
+The Apollo 11 mission launched on July 16, 1969. Neil Armstrong and Buzz Aldrin landed on the Moon on July 20, 1969, while Michael Collins remained in lunar orbit aboard the command module Columbia.
+
+Question: Who stayed in orbit while the others landed on the Moon?
+------------------------------------------------------------------------------
+Michael Collins stayed in orbit while Neil Armstrong and Buzz Aldrin landed on the Moon.
+(completion_tokens=18, total_time_s=0.63)
+
+==============================================================================
+[grounded_synthesis]
+Context:
+Redis is an in-memory key-value store; reads and writes typically complete in well under a millisecond. PostgreSQL is a disk-based relational database that offers strong durability and rich SQL queries but higher read latency. A common pattern is to use PostgreSQL as the source of truth and Redis as a cache in front of it.
+
+Question: Based on the context, why would a team put Redis in front of PostgreSQL, and what is the trade-off?
+------------------------------------------------------------------------------
+A team would put Redis in front of PostgreSQL to leverage Redis's in-memory processing for quick data access, using it as a cache to reduce the load on the slower, disk-based PostgreSQL. The trade-off is that while Redis provides faster read times, PostgreSQL offers stronger durability and richer SQL query capabilities.
+(completion_tokens=61, total_time_s=2.143)
+
+==============================================================================
+[unanswerable_refusal]
+Context:
+The company's Paris office opened in 2015 and focuses on European sales. It has grown to 40 employees as of 2023.
+
+Question: What was the company's total revenue in 2023?
+------------------------------------------------------------------------------
+Don't have enough information.
+(completion_tokens=7, total_time_s=0.279)

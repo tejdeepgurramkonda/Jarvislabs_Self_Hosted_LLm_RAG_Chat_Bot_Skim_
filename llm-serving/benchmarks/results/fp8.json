@@ -1,0 +1,17 @@
+{
+  "label": "fp8",
+  "runs": 20,
+  "ttft_ms_mean": 79.6,
+  "ttft_ms_p90": 95.1,
+  "itl_ms_mean": 34.41,
+  "tokens_per_sec_mean": 28.8,
+  "e2e_s_mean": 5.97,
+  "completion_tokens_mean": 172.8,
+  "engine": "vllm",
+  "quantization": "fp8",
+  "dtype": "float16",
+  "load_time_s": 57.27,
+  "vram_allocated_gb": 0.0,
+  "vram_reserved_gb": 0.0,
+  "weights_gb": 8.17
+}

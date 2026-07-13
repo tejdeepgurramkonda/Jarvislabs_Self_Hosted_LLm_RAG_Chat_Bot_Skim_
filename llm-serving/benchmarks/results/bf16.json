@@ -1,0 +1,17 @@
+{
+  "label": "bf16",
+  "runs": 20,
+  "ttft_ms_mean": 109.4,
+  "ttft_ms_p90": 130.2,
+  "itl_ms_mean": 56.68,
+  "tokens_per_sec_mean": 17.5,
+  "e2e_s_mean": 9.91,
+  "completion_tokens_mean": 174.1,
+  "engine": "vllm",
+  "quantization": "none",
+  "dtype": "bfloat16",
+  "load_time_s": 151.12,
+  "vram_allocated_gb": 0.0,
+  "vram_reserved_gb": 0.0,
+  "weights_gb": 14.29
+}

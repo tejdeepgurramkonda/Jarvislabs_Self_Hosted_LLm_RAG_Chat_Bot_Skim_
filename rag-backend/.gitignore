@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# runtime data (uploaded PDFs + persisted index)
+data/uploads/*
+data/index/*
+!data/uploads/.gitkeep
+!data/index/.gitkeep

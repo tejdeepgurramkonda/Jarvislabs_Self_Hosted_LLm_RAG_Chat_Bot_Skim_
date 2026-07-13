@@ -1,0 +1,47 @@
+# ============================================================
+# Root .gitignore for the RAG Chatbot monorepo
+# (each service also has its own; this is a safety net)
+# ============================================================
+
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.key
+.vllm_key
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+vllm-env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- node / vite (frontend) ---
+node_modules/
+dist/
+.vite/
+*.local
+
+# --- runtime data (uploaded PDFs + persisted FAISS index) ---
+rag-backend/data/uploads/*
+rag-backend/data/index/*
+!rag-backend/data/uploads/.gitkeep
+!rag-backend/data/index/.gitkeep
+
+# --- model weights / caches (never commit) ---
+model_cache/
+*.safetensors
+*.bin
+*.gguf
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

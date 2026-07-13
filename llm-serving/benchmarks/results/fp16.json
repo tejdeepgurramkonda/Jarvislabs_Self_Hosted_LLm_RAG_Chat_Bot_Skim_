@@ -1,0 +1,17 @@
+{
+  "label": "fp16",
+  "runs": 20,
+  "ttft_ms_mean": 106.5,
+  "ttft_ms_p90": 126.0,
+  "itl_ms_mean": 56.78,
+  "tokens_per_sec_mean": 17.5,
+  "e2e_s_mean": 9.9,
+  "completion_tokens_mean": 173.9,
+  "engine": "vllm",
+  "quantization": "none",
+  "dtype": "float16",
+  "load_time_s": 49.31,
+  "vram_allocated_gb": 0.0,
+  "vram_reserved_gb": 0.0,
+  "weights_gb": 14.29
+}

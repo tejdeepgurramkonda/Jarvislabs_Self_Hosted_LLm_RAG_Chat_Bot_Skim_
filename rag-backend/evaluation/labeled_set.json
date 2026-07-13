@@ -1,0 +1,18 @@
+{
+  "description": "Small labeled set for offline retrieval evaluation. Each corpus entry represents one chunk with a stable id. Each query lists the ids of the chunks that are TRULY relevant. Replace with your own domain data.",
+  "corpus": [
+    {"id": "c1", "text": "Photosynthesis is the process by which green plants convert sunlight into chemical energy in the chloroplasts, producing glucose and oxygen from carbon dioxide and water."},
+    {"id": "c2", "text": "The water cycle describes how water moves through evaporation, condensation, and precipitation. Solar energy drives evaporation from oceans and lakes."},
+    {"id": "c3", "text": "Mitochondria are the powerhouse of the cell; they produce ATP through the process of cellular respiration."},
+    {"id": "c4", "text": "Newton's second law of motion states that force equals mass times acceleration, written as F = ma."},
+    {"id": "c5", "text": "The speed of light in a vacuum is approximately 299,792 kilometers per second, a fundamental constant of physics."},
+    {"id": "c6", "text": "Chlorophyll is the pigment that gives plants their green color and absorbs light mostly in the red and blue wavelengths."}
+  ],
+  "queries": [
+    {"query": "How do plants make food from sunlight?", "relevant": ["c1", "c6"]},
+    {"query": "What drives the evaporation of water from the oceans?", "relevant": ["c2"]},
+    {"query": "Where in the cell is ATP produced?", "relevant": ["c3"]},
+    {"query": "What is Newton's second law of motion?", "relevant": ["c4"]},
+    {"query": "Why are plant leaves green in color?", "relevant": ["c6"]}
+  ]
+}
