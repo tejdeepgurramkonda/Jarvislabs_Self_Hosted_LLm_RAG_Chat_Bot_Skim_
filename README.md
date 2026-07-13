@@ -122,8 +122,10 @@ The backend turns "a PDF + a question" into a grounded, streamed answer:
 A clean chat UI: drop a PDF, watch the indexing checklist, then ask questions.
 
 > **Screenshots (add to `docs/assets/`):**
-> ![Upload](docs/assets/placeholder-upload.png)
-> ![Chat](docs/assets/placeholder-chat.png)
+> ![Upload]<img width="1528" height="738" alt="Screenshot 2026-07-13 185427" src="https://github.com/user-attachments/assets/cb2518ed-b87e-4a0b-849a-cc486147b6ed" />
+
+> ![Chat]<img width="1532" height="747" alt="Screenshot 2026-07-13 185657" src="https://github.com/user-attachments/assets/aa30fe08-d716-4c90-8fe8-0571d9e04f76" />
+
 
 - **Live streaming** — tokens appear with a typing caret; the final event shows the
   **source pages**.
