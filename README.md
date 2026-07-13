@@ -6,9 +6,11 @@ single GPU. This repo tells the whole story end-to-end: **benchmarking quantizat
 methods → choosing and serving the best one → building the RAG backend → building the
 React frontend.**
 
-> **Hero / demo (add to `docs/assets/`):**
-> ![Product hero](docs/assets/placeholder-hero.png)
-> 🎥 **Demo video:** `docs/assets/placeholder-demo.mp4`
+> 🎥 **Demo video:** 
+
+https://github.com/user-attachments/assets/9bbd4481-330b-4cf4-940e-153fde318344
+
+
 
 <!-- badges placeholder: build · license · python · react -->
 
